@@ -1,0 +1,17 @@
+/* Explore component Styling */
+
+.text-shadow{
+    text-shadow: 0 0 19px rgba(0, 0, 0, 0.4);
+}
+
+.img-shadow{
+    filter:drop-shadow(0rem 0.6rem 0.4rem  rgba(74 222 128 /70%));
+}
+
+
+.card-hover-scale {
+    transition: transform 0.3s; /* Apply transition effect */
+}
+.card-hover-scale:hover {
+    transform: scale(1.05); /* Scale up by 5% on hover */
+}

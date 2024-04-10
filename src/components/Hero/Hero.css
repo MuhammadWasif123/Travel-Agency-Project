@@ -1,0 +1,40 @@
+/* Hero CSS Code */
+
+.gradient-bg {
+    background: linear-gradient(to bottom, #a7f3d0, #FFFFFF);
+  }
+
+
+  .button-gradient-emerald{
+   background: linear-gradient(to bottom,#10b981,#22c55e);
+   transition-property: all;
+   transition-duration: 200ms;
+   transform: scale(0.9); 
+  
+
+
+  }
+
+  
+  .button-gradient-white{
+    background: linear-gradient(to bottom,#fff,#f1f5f9);
+    transition-property: all;
+    transition-duration: 200ms;
+    transform: scale(0.9); 
+   
+   
+ 
+ 
+   }
+
+  .main-img-shadow{
+
+    filter:drop-shadow(0.1rem 0.1rem 1rem  rgba(74 222 128 /80%));
+
+
+  }
+
+  .text-shadow{
+  text-shadow:0 0 35px rgba(0, 0, 0, 0.39);
+
+  }

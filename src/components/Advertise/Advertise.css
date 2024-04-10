@@ -1,0 +1,19 @@
+/* Advertisement Section Styling */
+
+/* .img-scale {
+    transition: transform 0.3s; /* Apply transition effect 
+ }  */
+
+.img-scale:hover{
+transform: scale(1.05);
+
+
+}
+
+.img-shadow{
+    filter:drop-shadow(0rem 0.6rem 0.4rem  rgba(74 222 128 /70%));
+}
+
+.scroll-hidden::-webkit-scrollbar {
+    display: none !important;
+}

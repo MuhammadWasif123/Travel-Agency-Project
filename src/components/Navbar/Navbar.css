@@ -1,0 +1,26 @@
+/* Navbar Custom CSS Properties */
+
+
+.button-gradient-emerald{
+    background: linear-gradient(to bottom,#10b981,#22c55e);
+    /* transition-property: all;
+    transition-duration: 200ms;
+    transform: scale(0.9);  */
+ 
+}
+
+/* .nav-default-style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family:"font-openSans"; 
+    width: auto;
+    height: auto;
+    position: absolute;
+    top:14px;
+    right: 0px;
+    left: 0px;
+    /* flex items-center justify-center font-openSans w-auto h-auto absolute top-5 right-0 left-0 
+
+}
+ */

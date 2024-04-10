@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+body::-webkit-scrollbar-track {
+  @apply bg-gradient-to-b from-slate-100 to-gray-100;
+} */
+
+/* @layer base {
+  * {
+    padding: 0;
+    margin: 0;
+
+
+  }
+} */
+
+body{
+  margin:0;
+  padding:0;
+  
+  
+  }
+
+
+  .scroll-hidden::-webkit-scrollbar {
+    display: none !important;
+  }
+  body::-webkit-scrollbar {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(66, 245, 141) rgb(66, 245, 141);
+  }
+  body::-webkit-scrollbar {
+    @apply w-1.5;
+  }
+  body::-webkit-scrollbar-track {
+    @apply bg-gradient-to-b from-slate-100 to-gray-100;
+  }
+  body::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-gradient-to-tr from-emerald-500 to-green-500;
+  }
+
+
+.nav-default-style{
+  @apply flex items-center justify-center fixed top-4 lg:top-5 left-0 right-0 transition-all duration-300;
+
+
+}
+
+
+
+
+.nav-sticky-style{
+  @apply bg-white/80 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 flex items-center h-[9vh] fixed top-0 left-0 right-0 opacity-100 z-[100] shadow-sm shadow-slate-100;
+
+}

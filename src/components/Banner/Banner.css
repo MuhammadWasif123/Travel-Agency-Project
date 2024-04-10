@@ -1,0 +1,12 @@
+/* Banner Styling */
+
+.button-gradient1{
+    background: linear-gradient(to bottom,#111827,#1e293b);
+}
+
+
+.btn-style:active{
+transform: scale(1.05);
+
+
+}

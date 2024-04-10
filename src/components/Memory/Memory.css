@@ -1,0 +1,24 @@
+.main-card-shadow{
+filter:drop-shadow(0rem 1rem 0.5rem  rgba(74 222 128 /70%))
+
+}
+
+
+.gradient-card{
+    background: linear-gradient(to bottom, #6ee7b7, #86efac);
+    
+  }
+
+
+.text-shadow{
+    text-shadow: 0 0 19px rgba(0, 0, 0, 0.4);
+}
+
+
+.custom-hover {
+    transition: transform 0.3s; /* Apply transition effect */
+}
+  
+.custom-hover:hover {
+    transform: scale(1.05); /* Scale up by 5% on hover */
+}
