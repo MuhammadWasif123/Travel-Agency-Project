@@ -6,7 +6,7 @@ const Footer = ({ footerAPI: { titles, links, sociallinks } }) => {
   return (
     <>
       <footer className="mt-12 footer-gradient font-openSans pt-14 pb-8 ">
-        <div className="grid items-center justify-items-center grid-cols-3">
+        <div className="grid items-center justify-items-center grid-cols-3 xsm:pr-[39px] sm:pr-[35px]">
          {titles?.map((val,i)=>(
           <div key={i} className="grid items-center justify-items-center relative left-5">
            <h1 className="uppercase font-semibold text-lg lg:text-base text-slate-900">{val.title}</h1>

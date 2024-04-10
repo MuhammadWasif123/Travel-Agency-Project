@@ -12,14 +12,14 @@ const PricingCard = ({plan:{planicon,title,text,plantype,plancontent,buttonText}
               <img src={planicon} alt="Error Loading Image" className="w-14 h-14 object-cover lg:w-12 lg:h-12" />
             </div>
             <div className="grid items-center mt-[7px]">
-              <h1 className="text-gray-900 font-semibold text-lg font-openSans text-shadow1 lg:text-base md:text-sm leading-[0px] xsm:leading-[0px] sm:leading-[0px] md:leading-[0px] lg:leading-[0px] xl:leading-[0px] ">{title}</h1>
+              <h1 className="text-gray-900 font-semibold text-lg font-openSans text-shadow1 lg:text-base md:text-sm leading-[0px] xsm:leading-[14px] sm:leading-[0px] md:leading-[0px] lg:leading-[0px] xl:leading-[0px] ">{title}</h1>
               <p className="font-openSans text-slate-900 font-normal text-sm lg:text-xs leading-[0px] xsm:leading-[0px] sm:leading-[0px] md:leading-[0px] lg:leading-[0px] xl:leading-[0px]">{text}</p>
             </div>
           </div>
 
 
           <div className="grid items-center">
-            <h1 className="font-openSans text-gray-900 font-semibold text-lg  text-shadow4 lg:text-base md:text-sm leading-[0px] xsm:leading-[0px] sm:leading-[0px] md:leading-[0px] lg:leading-[0px] xl:leading-[0px]">{plantype}</h1>
+            <h1 className="font-openSans text-gray-900 font-semibold text-lg  text-shadow4 lg:text-base md:text-sm leading-[0px] xsm:leading-[13px] sm:leading-[0px] md:leading-[0px] lg:leading-[0px] xl:leading-[0px]">{plantype}</h1>
           </div>
         </div>
 

@@ -17,7 +17,6 @@ const Pricing = ({pricingapi:{title,text,btn1,btn2,plans}}) => {
             <button type="button" className="button-gradient-white sm:w-auto border-none transition-all duration-200 active:scale-105 text-slate-900 rounded-full text-xl px-12 py-2  xl:text-lg xl:px-9 xl:py-1.5 cursor-pointer shadow-lg shadow-slate-300">{btn2}</button>
             </div>
           </div>
-          
            
           <div className="grid items-center grid-cols-2 md:grid-cols-1 w-full max-w-5xl md:max-w-md gap-9 lg:gap-5 m-auto ">
              {plans?.map((plan,i)=>(

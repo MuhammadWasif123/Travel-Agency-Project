@@ -19,7 +19,7 @@ const Memory = ({memory:{title,text,subtitle,img,experience}}) => {
          {experience?.map((val,i)=>(
             <div key={i} className='gradient-card rounded-lg main-card-shadow h-auto w-auto flex flex-col items-center justify-center text-center p-6 xl:p-5 text-slate-900 cursor-pointer custom-hover'>
              <h1 className='leading-[0] sm:leading-[0] xl:leading-[0] text-3xl xl:text-2xl sm:text-xl font-bold'>{val.number}</h1>
-             <p className='leading-[0] sm:leading-[0] xl:leading-[0] text-lg font-normal xl:text-base sm:text-sm xsm:text-xsm font-openSans'>{val.title}</p>
+             <p className='leading-[0] sm:leading-4 xl:leading-[0] text-lg font-normal xl:text-base sm:text-sm xsm:text-xsm font-openSans '>{val.title}</p>
 
             </div>
 
